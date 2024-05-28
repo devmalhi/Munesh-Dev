@@ -1,20 +1,17 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: montserrat;
+    font-family: sans-serif;
 }
 
-body {
-    background: f1fbff;
+body,
+html {
+    background: #f1fbff;
 }
+
 
 .section-padding {
     padding: 100% 0;
-}
-
-.carousel-item {
-    height: 100vh;
-    min-height: 300px;
 }
 
 .carousel-caption {
@@ -51,7 +48,7 @@ body {
 }
 
 .navbar-light .navbar-nav .navbar-link {
-    color: #fff;
+    color: #ffffff;
 }
 
 .service .card-body i {
@@ -69,7 +66,6 @@ body {
 .team .card {
     box-shadow: 15px 15px 40px rgba(-0, 0, 0, 0.15);
 }
-
 @media screen and(max-width: 768px) and(min-width:991px) {
     .carousel-caption {
         bottom: 370px;
